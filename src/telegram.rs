@@ -8,3 +8,8 @@ fn telegram_caller(){
 
     println!("{}", key);
 }
+
+pub fn initalizer(){
+    let info = "Request being sent now".blue();
+    println!("{}", info);
+}

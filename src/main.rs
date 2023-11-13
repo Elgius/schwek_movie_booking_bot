@@ -1,5 +1,6 @@
 // mod telegram;
 mod movie;
+mod scraper;
 
 fn main() {
     println!("initializing the bot");

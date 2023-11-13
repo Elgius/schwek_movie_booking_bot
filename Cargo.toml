@@ -8,4 +8,6 @@ edition = "2021"
 [dependencies]
 dotenv = "0.15.0"
 tokio = "1.34.0"
-
+reqwest = "0.11.22"
+colored = "2.0.4"
+scraper = "0.18.1"
