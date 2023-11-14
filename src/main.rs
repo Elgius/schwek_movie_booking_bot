@@ -2,8 +2,11 @@
 mod movie;
 mod scraper;
 
-fn main() {
+
+#[tokio::main]
+async fn main() {
     println!("initializing the bot");
     // telegram::telegram_caller();
-    movie::movie()
+    // movie::movie()
+    scraper::initialised().await;
 }
